@@ -1,0 +1,26 @@
+/* regole generali */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.row > [class*="col-"] {
+  min-height: 200px;
+  line-height: 200px;
+  text-align: center;
+  background-color: #ffc0cb;
+  border: 1px solid black;
+}
+
+[class*="col-"] > [class*="col-"] {
+  min-height: 200px;
+  background-color: #f07f80;
+  border: 3px solid #ffc0cb;
+}
+
+p{
+  line-height: 1.5;
+  display: inline-block;
+  vertical-align: middle;
+}
