@@ -9,7 +9,7 @@
   <body>
     <div class="container">
 
-      <!-- row -->
+      <!-- row a 12 unita -->
       <div class="row">
 
         <div class="col-1 text">
@@ -62,7 +62,7 @@
 
       </div>
 
-      <!-- row -->
+      <!-- row a tutta larghezza-->
       <div class="row">
 
         <div class="col-12 text">
@@ -71,6 +71,7 @@
 
       </div>
 
+      <!-- row a tutta 8-2-2 -->
       <div class="row">
 
         <div class="col-8 text">
@@ -87,7 +88,7 @@
 
       </div>
 
-      <!-- row -->
+      <!-- row a tutta 1-2-2-6-1-->
       <div class="row">
 
         <div class="col-1 text">
@@ -112,10 +113,13 @@
 
       </div>
 
-      <!-- row -->
+      <!-- row con nesting 6-6-->
       <div class="row">
 
         <div class="col-6">
+
+          <!-- sotto livello 1-->
+          <div class="row">
 
             <div class="col-2 text">
               <p>Nested 2 col</p>
@@ -128,18 +132,26 @@
             <div class="col-8 text">
               <p>Nested 8 col</p>
             </div>
+            
+          </div>
 
         </div>
 
         <div class="col-6">
 
-          <div class="col-6 text">
-            <p>Nested 6 col</p>
+          <!-- sotto livello 1-->
+          <div class="row">
+
+            <div class="col-6 text">
+              <p>Nested 6 col</p>
+            </div>
+
+            <div class="col-6 text">
+              <p>Nested 6 col</p>
+            </div>
+
           </div>
 
-          <div class="col-6 text">
-            <p>Nested 6 col</p>
-          </div>
         </div>
 
       </div>

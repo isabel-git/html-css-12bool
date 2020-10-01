@@ -5,18 +5,20 @@
   box-sizing: border-box;
 }
 
-.row > [class*="col-"] {
+/* regole row */
+[class*="col-"] {
   min-height: 200px;
   line-height: 200px;
   text-align: center;
   background-color: #ffc0cb;
   border: 1px solid black;
+  padding: 3px;
 }
 
-[class*="col-"] > [class*="col-"] {
+[class*="col-"] > .row > [class*="col-"] {
   min-height: 200px;
   background-color: #f07f80;
-  border: 3px solid #ffc0cb;
+  border: 1px solid #fff;
 }
 
 p{
